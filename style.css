@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url("./assets/pexels-miguel-á-padriñán-19670.jpg") no-repeat ;
+    background-size:cover;
+    height: 100vh;
+}
+
+input{
+    width: 18rem;
+    padding: 10px;
+}
+
+.mt-5{
+    margin-top: 1000px;
+}
+
+
+
+
+@media(max-width=768px){
+    h2{
+        font-size: 90rem;
+    }
+    input{
+        width: 5rem;
+        padding: 4px;
+    }
+}
